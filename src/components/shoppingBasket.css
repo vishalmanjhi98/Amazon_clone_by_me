@@ -1,0 +1,37 @@
+.shoppingBasket {
+  padding: 0 20px;
+}
+.shoppingBasket .list {
+  list-style: none;
+  padding: 0;
+}
+.shoppingBasket .list > li {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+.shoppingBasket .list > li:first-child {
+  border: none;
+}
+.shoppingBasket .itemDeatils {
+  padding: 0 10px;
+}
+.shoppingBasket .itemDeatils button {
+  padding: 5px;
+  background-color: #ff9f00;
+  border: 1px solid;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.shoppingBasket .itemDeatils p {
+  margin-bottom: 0;
+}
+.shoppingBasket .imageHolder {
+  padding: 0 10px;
+}
+.shoppingBasket .imageHolder > img {
+  width: auto;
+  max-height: 150px;
+  object-fit: contain;
+}

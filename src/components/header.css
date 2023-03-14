@@ -1,0 +1,73 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  color: white;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+.header a svg, .header a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin: 0 25px;
+}
+.header__logo svg {
+  color: #ff9f00;
+}
+.header__logoName {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+  margin: 0 10px;
+}
+.header__search input {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+}
+.header__searchIcon {
+  background-color: #ff9f00;
+  padding: 8px;
+  color: black;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 25px;
+}
+.header__nav__itemBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header__nav__lineOne {
+  font-size: 10px;
+  font-weight: normal;
+}
+.header__nav__lineTwo {
+  font-size: 14px;
+}
+.header__nav__user {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-right: 20px;
+  flex-direction: column;
+}
